@@ -1,0 +1,158 @@
+.searchSection {
+  padding: 30px 0 60px 0;
+
+  &__inner {
+    &-title {
+      margin-bottom: 0.5em;
+      //font
+      color: $black-secondary;
+      font-family: $font-primary;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 1.2;
+      letter-spacing: -2px;
+    }
+    &-row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -15px;
+
+      .cardBrand {
+        width: calc(25% - 30px);
+        margin: 15px;
+      }
+    }
+    &-footer {
+      margin-top: 90px;
+      display: flex;
+      justify-content: center;
+
+      .button {
+        min-width: 220px;
+      }
+    }
+  }
+}
+@mixin searchSection-1160 {
+  .searchSection {
+    &__inner {
+      &-title {
+        font-size: 44px;
+      }
+    }
+  }
+}
+
+@mixin searchSection-1025 {
+  .searchSection {
+    &__inner {
+      &-title {
+        font-size: 40px;
+      }
+
+      &-row {
+        margin: -8px;
+
+        .cardBrand {
+          width: calc(33.3% - 16px);
+          margin: 8px;
+        }
+      }
+    }
+  }
+}
+
+@mixin searchSection-940 {
+  .searchSection {
+    &__inner {
+      &-row {
+        margin: 0 -15px;
+        justify-content: space-evenly;
+
+        .cardBrand {
+          width: calc(50% - 30px);
+          max-width: 390px;
+          margin: 15px;
+        }
+      }
+    }
+  }
+}
+@mixin searchSection-768 {
+  .searchSection {
+    &__inner {
+      &-title {
+        font-size: 36px;
+      }
+      &-row {
+        margin: -8px;
+
+        .cardBrand {
+          width: calc(50% - 16px);
+          margin: 8px;
+        }
+      }
+    }
+  }
+}
+@mixin searchSection-580 {
+  .searchSection {
+    &__inner {
+      &-row {
+        .cardBrand {
+          &__content {
+            padding: 16px 12px;
+            gap: 8px;
+
+            &-badges {
+              .badge {
+                font-size: 12px;
+              }
+            }
+            &-title {
+              font-size: 18px;
+            }
+            &-para {
+              font-size: 13px;
+            }
+            &-link {
+              .learnMore {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin searchSection-460 {
+  .searchSection {
+    &__inner {
+      &-row {
+        .cardBrand {
+          width: 100%;
+
+          &__content {
+            padding: 30px 16px;
+            gap: 12px;
+
+            &-badges {
+              .badge {
+                font-size: 12px;
+              }
+            }
+            &-title {
+              font-size: 20px;
+            }
+            &-para {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

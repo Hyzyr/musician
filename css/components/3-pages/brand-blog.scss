@@ -1,0 +1,309 @@
+.availability {
+  background: $white-bg;
+  padding: 100px 0;
+
+  &__inner {
+    &-header {
+      max-width: 600px;
+      margin: 0 auto 45px auto;
+      text-align: center;
+
+      h2 {
+        color: $black-secondary;
+        font-family: $font-primary;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 1.1;
+        margin-bottom: 0.4em;
+      }
+      p {
+        color: $black-primary;
+        font-family: $font-secondary;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+    }
+    &-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 25px;
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $white;
+        box-shadow: 0px 30px 40px rgba($black-4, 0.2);
+        border-radius: 16px;
+        padding: 0.8em 0.6em;
+        flex: 1 0 0;
+
+        //FONT
+        color: $black-4;
+        font-family: "Urbanist";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1;
+        text-align: center;
+        letter-spacing: -1px;
+
+        .custIcon {
+          font-size: inherit;
+          width: 0.8em;
+          height: 0.8em;
+          border-radius: 50%;
+          background: $primary;
+          margin: 0.15em 0 0 0.5em;
+          &:after {
+            top: 45%;
+            width: 25%;
+            height: 50%;
+            border-color: $black;
+          }
+        }
+      }
+    }
+  }
+}
+.banner {
+  padding: 60px 0;
+  &__inner {
+    &-row {
+      display: flex;
+    }
+    &-column {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+
+      &-img {
+        width: 100%;
+        height: 50%;
+        img {
+          @include fullImage;
+        }
+
+        &._big {
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+.slider {
+  padding: 50px 0;
+  &__inner {
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+
+      h2 {
+        color: $black-secondary;
+        font-family: $font-primary;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 1.2;
+        letter-spacing: -2px;
+      }
+      &-arrows {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .button {
+          font-size: 26px;
+
+          &.slick-disabled {
+            background-color: transparent;
+            border-color: $black;
+          }
+        }
+      }
+    }
+    &-slider {
+      .slick {
+        &-list {
+          margin: 0 -15px;
+        }
+        &-slide {
+          padding: 10px 15px;
+        }
+      }
+    }
+  }
+}
+@mixin brand-blog-1160 {
+  .availability {
+    padding: 80px 0;
+    &__inner {
+      &-header {
+        h2 {
+          font-size: 44px;
+        }
+      }
+      &-row {
+        li {
+          font-size: 28px;
+        }
+      }
+    }
+  }
+  .slider {
+    &__inner {
+      &-header {
+        h2 {
+          font-size: 44px;
+        }
+      }
+    }
+  }
+}
+
+@mixin brand-blog-1025 {
+  .availability {
+    &__inner {
+      &-header {
+        margin-bottom: 35px;
+        h2 {
+          font-size: 40px;
+        }
+      }
+      &-row {
+        gap: 15px;
+
+        li {
+          font-size: 26px;
+        }
+      }
+    }
+  }
+  .slider {
+    &__inner {
+      &-header {
+        h2 {
+          font-size: 40px;
+        }
+      }
+      &-slider {
+        .slick {
+          &-list {
+            margin: 0 -10px;
+          }
+          &-slide {
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin brand-blog-940 {
+  .availability {
+    padding: 60px 0;
+    &__inner {
+      &-header {
+        h2 {
+          font-size: 36px;
+        }
+      }
+      &-row {
+        gap: 10px;
+
+        li {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  .slider {
+    &__inner {
+      &-header {
+        h2 {
+          font-size: 36px;
+        }
+      }
+    }
+  }
+}
+@mixin brand-blog-768 {
+  .availability {
+    &__inner {
+      &-row {
+        li {
+          font-size: 18px;
+          border-radius: 0.6em;
+        }
+      }
+    }
+  }
+}
+@mixin brand-blog-580 {
+  .availability {
+    &__inner {
+      &-row {
+        max-width: 450px;
+        margin: 0 auto;
+        li {
+          min-width: 26%;
+        }
+      }
+    }
+  }
+  .banner {
+    padding: 35px 0;
+    &__inner {
+      &-row {
+        flex-direction: column;
+      }
+      &-column {
+        flex-direction: row;
+        overflow: hidden;
+        width: 100%;
+
+        &-img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 250px;
+
+          &._big {
+            height: 500px;
+          }
+        }
+      }
+    }
+  }
+  .slider {
+    &__inner {
+      &-header {
+        h2 {
+          font-size: 28px;
+        }
+      }
+    }
+  }
+}
+@mixin brand-blog-460 {
+  .banner {
+    &__inner {
+      &-column {
+        &-img {
+          height: 180px;
+          &._big {
+            height: 360px;
+          }
+        }
+      }
+    }
+  }
+}

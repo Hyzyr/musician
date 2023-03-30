@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Domain | Search</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <!-- header start
+    =========================================== -->
+      <header class="header" id="header">
+        <div class="autoContainer">
+          <div class="header__bg"></div>
+          <div class="header__inner">
+            <a href="/" class="header__inner-logo">
+              <span class="logo">
+                <img src="images/logo-white.svg" alt="domain" />
+              </span>
+            </a>
+            <div class="nav" id="menu">
+              <div class="nav__inner">
+                <div class="nav__inner-group">
+                  <a href="./search.html" class="nav__inner-link">Browse All</a>
+                  <a href="./indutries.html" class="nav__inner-link"
+                    >Browse by Industry</a
+                  >
+                  <a href="./brand.html" class="nav__inner-link"
+                    >Browse by Style</a
+                  >
+                </div>
+                <div class="nav__inner-group">
+                  <a
+                    href="#"
+                    class="nav__inner-link _ico"
+                    data-event="tabEvent"
+                    data-tab="#popupSubscribe"
+                  >
+                    <svg
+                      width="24"
+                      height="23"
+                      viewBox="0 0 24 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12.0013 2.28381C14.7418 -0.17669 18.9768 -0.0950234 21.617 2.54981C24.256 5.19581 24.347 9.40981 21.8923 12.1585L11.999 22.0658L2.108 12.1585C-0.346664 9.40981 -0.254497 5.18881 2.38334 2.54981C5.02584 -0.0915233 9.25267 -0.18019 12.0013 2.28381ZM19.965 4.19831C18.215 2.44598 15.3917 2.37481 13.56 4.01981L12.0025 5.41748L10.4438 4.02098C8.60634 2.37364 5.78884 2.44598 4.03417 4.20064C2.29584 5.93898 2.20834 8.72148 3.81017 10.5601L12.0002 18.763L20.1902 10.5613C21.7932 8.72148 21.7057 5.94248 19.965 4.19831Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    Favorite
+                  </a>
+                  <a
+                    href="#"
+                    class="nav__inner-link _ico"
+                    data-event="tabEvent"
+                    data-tab="#popupRegister"
+                  >
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.8335 0.333984C16.6295 0.333984 21.3335 5.03798 21.3335 10.834C21.3335 16.63 16.6295 21.334 10.8335 21.334C5.0375 21.334 0.333496 16.63 0.333496 10.834C0.333496 5.03798 5.0375 0.333984 10.8335 0.333984ZM10.8335 19.0007C15.345 19.0007 19.0002 15.3455 19.0002 10.834C19.0002 6.32132 15.345 2.66732 10.8335 2.66732C6.32083 2.66732 2.66683 6.32132 2.66683 10.834C2.66683 15.3455 6.32083 19.0007 10.8335 19.0007ZM20.7327 19.0835L24.0332 22.3828L22.3823 24.0337L19.083 20.7332L20.7327 19.0835Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    Search
+                  </a>
+                </div>
+              </div>
+            </div>
+            <button class="burger" id="menuBtn"></button>
+          </div>
+        </div>
+      </header>
+      <!-- header end
+    =========================================== -->
+      <section class="hero hero--bg hero--info">
+        <div class="hero__bg">
+          <img src="images/main-background.png" alt="" />
+        </div>
+        <div class="autoContainer">
+          <div class="hero__info">
+            <h1 class="wow fadeInUp">
+              Industries we have
+              <span class="noBreak">
+                designed for<span class="greenDot"></span>
+              </span>
+            </h1>
+            <p class="wow fadeInUp" data-wow-delay=".2s">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- searchSection section start
+        =========================================== -->
+      <section class="searchSection">
+        <div class="autoContainer">
+          <div class="searchSection__inner">
+            <div class="searchSection__inner-row">
+              <div class="cardBrand wow fadeInUp" data-wow-delay=".2s">
+                <div class="cardBrand__image">
+                  <div class="ratioImage">
+                    <img
+                      src="images/industries/image-3.png"
+                      alt="Coffee Brand"
+                    />
+                  </div>
+                </div>
+                <div class="cardBrand__content">
+                  <div class="cardBrand__content-badges">
+                    <spanb class="badge">Coffee Brand</spanb>
+                  </div>
+                  <h6 class="cardBrand__content-title">Media and Sports</h6>
+                  <p class="cardBrand__content-para">
+                    All the Lorem Ipsum generators on the Internet tend to
+                    repeat predefined chunks as necessary, making this the first
+                    true generator on the Internet. It uses a dictionar.
+                  </p>
+                  <div class="cardBrand__content-link">
+                    <a href="/brand-blog.html" class="learnMore"
+                      ><span></span> LEARN MORE</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="cardBrand wow fadeInUp" data-wow-delay=".2s">
+                <div class="cardBrand__image">
+                  <div class="ratioImage">
+                    <img
+                      src="images/industries/image-2.png"
+                      alt="Coffee Brand"
+                    />
+                  </div>
+                </div>
+                <div class="cardBrand__content">
+                  <div class="cardBrand__content-badges">
+                    <spanb class="badge">Coffee Brand</spanb>
+                  </div>
+                  <h6 class="cardBrand__content-title">Media and Sports</h6>
+                  <p class="cardBrand__content-para">
+                    All the Lorem Ipsum generators on the Internet tend to
+                    repeat predefined chunks as necessary, making this the first
+                    true generator on the Internet. It uses a dictionar.
+                  </p>
+                  <div class="cardBrand__content-link">
+                    <a href="/brand-blog.html" class="learnMore"
+                      ><span></span> LEARN MORE</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="cardBrand wow fadeInUp" data-wow-delay=".2s">
+                <div class="cardBrand__image">
+                  <div class="ratioImage">
+                    <img
+                      src="images/industries/image-1.png"
+                      alt="Coffee Brand"
+                    />
+                  </div>
+                </div>
+                <div class="cardBrand__content">
+                  <div class="cardBrand__content-badges">
+                    <spanb class="badge">Coffee Brand</spanb>
+                  </div>
+                  <h6 class="cardBrand__content-title">Media and Sports</h6>
+                  <p class="cardBrand__content-para">
+                    All the Lorem Ipsum generators on the Internet tend to
+                    repeat predefined chunks as necessary, making this the first
+                    true generator on the Internet. It uses a dictionar.
+                  </p>
+                  <div class="cardBrand__content-link">
+                    <a href="/brand-blog.html" class="learnMore"
+                      ><span></span> LEARN MORE</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="cardBrand wow fadeInUp" data-wow-delay=".2s">
+                <div class="cardBrand__image">
+                  <div class="ratioImage">
+                    <img
+                      src="images/industries/image-2.png"
+                      alt="Coffee Brand"
+                    />
+                  </div>
+                </div>
+                <div class="cardBrand__content">
+                  <div class="cardBrand__content-badges">
+                    <spanb class="badge">Coffee Brand</spanb>
+                  </div>
+                  <h6 class="cardBrand__content-title">Media and Sports</h6>
+                  <p class="cardBrand__content-para">
+                    All the Lorem Ipsum generators on the Internet tend to
+                    repeat predefined chunks as necessary, making this the first
+                    true generator on the Internet. It uses a dictionar.
+                  </p>
+                  <div class="cardBrand__content-link">
+                    <a href="/brand-blog.html" class="learnMore"
+                      ><span></span> LEARN MORE</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="cardBrand wow fadeInUp" data-wow-delay=".2s">
+                <div class="cardBrand__image">
+                  <div class="ratioImage">
+                    <img
+                      src="images/industries/image-1.png"
+                      alt="Coffee Brand"
+                    />
+                  </div>
+                </div>
+                <div class="cardBrand__content">
+                  <div class="cardBrand__content-badges">
+                    <spanb class="badge">Coffee Brand</spanb>
+                  </div>
+                  <h6 class="cardBrand__content-title">Media and Sports</h6>
+                  <p class="cardBrand__content-para">
+                    All the Lorem Ipsum generators on the Internet tend to
+                    repeat predefined chunks as necessary, making this the first
+                    true generator on the Internet. It uses a dictionar.
+                  </p>
+                  <div class="cardBrand__content-link">
+                    <a href="/brand-blog.html" class="learnMore"
+                      ><span></span> LEARN MORE</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="cardBrand wow fadeInUp" data-wow-delay=".2s">
+                <div class="cardBrand__image">
+                  <div class="ratioImage">
+                    <img
+                      src="images/industries/image-3.png"
+                      alt="Coffee Brand"
+                    />
+                  </div>
+                </div>
+                <div class="cardBrand__content">
+                  <div class="cardBrand__content-badges">
+                    <spanb class="badge">Coffee Brand</spanb>
+                  </div>
+                  <h6 class="cardBrand__content-title">Media and Sports</h6>
+                  <p class="cardBrand__content-para">
+                    All the Lorem Ipsum generators on the Internet tend to
+                    repeat predefined chunks as necessary, making this the first
+                    true generator on the Internet. It uses a dictionar.
+                  </p>
+                  <div class="cardBrand__content-link">
+                    <a href="/brand-blog.html" class="learnMore"
+                      ><span></span> LEARN MORE</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="cardBrand wow fadeInUp" data-wow-delay=".2s">
+                <div class="cardBrand__image">
+                  <div class="ratioImage">
+                    <img
+                      src="images/industries/image-1.png"
+                      alt="Coffee Brand"
+                    />
+                  </div>
+                </div>
+                <div class="cardBrand__content">
+                  <div class="cardBrand__content-badges">
+                    <spanb class="badge">Coffee Brand</spanb>
+                  </div>
+                  <h6 class="cardBrand__content-title">Media and Sports</h6>
+                  <p class="cardBrand__content-para">
+                    All the Lorem Ipsum generators on the Internet tend to
+                    repeat predefined chunks as necessary, making this the first
+                    true generator on the Internet. It uses a dictionar.
+                  </p>
+                  <div class="cardBrand__content-link">
+                    <a href="/brand-blog.html" class="learnMore"
+                      ><span></span> LEARN MORE</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="cardBrand wow fadeInUp" data-wow-delay=".2s">
+                <div class="cardBrand__image">
+                  <div class="ratioImage">
+                    <img
+                      src="images/industries/image-2.png"
+                      alt="Coffee Brand"
+                    />
+                  </div>
+                </div>
+                <div class="cardBrand__content">
+                  <div class="cardBrand__content-badges">
+                    <spanb class="badge">Coffee Brand</spanb>
+                  </div>
+                  <h6 class="cardBrand__content-title">Media and Sports</h6>
+                  <p class="cardBrand__content-para">
+                    All the Lorem Ipsum generators on the Internet tend to
+                    repeat predefined chunks as necessary, making this the first
+                    true generator on the Internet. It uses a dictionar.
+                  </p>
+                  <div class="cardBrand__content-link">
+                    <a href="/brand-blog.html" class="learnMore"
+                      ><span></span> LEARN MORE</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="cardBrand wow fadeInUp" data-wow-delay=".2s">
+                <div class="cardBrand__image">
+                  <div class="ratioImage">
+                    <img
+                      src="images/industries/image-1.png"
+                      alt="Coffee Brand"
+                    />
+                  </div>
+                </div>
+                <div class="cardBrand__content">
+                  <div class="cardBrand__content-badges">
+                    <spanb class="badge">Coffee Brand</spanb>
+                  </div>
+                  <h6 class="cardBrand__content-title">Media and Sports</h6>
+                  <p class="cardBrand__content-para">
+                    All the Lorem Ipsum generators on the Internet tend to
+                    repeat predefined chunks as necessary, making this the first
+                    true generator on the Internet. It uses a dictionar.
+                  </p>
+                  <div class="cardBrand__content-link">
+                    <a href="/brand-blog.html" class="learnMore"
+                      ><span></span> LEARN MORE</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="searchSection__inner-footer">
+              <button class="button button--border button--iconright">
+                Load More
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 11L11 1M11 1H1M11 1V11"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- searchSection section end
+        =========================================== -->
+
+      <!-- footer start
+    =========================================== -->
+      <footer class="footer">
+        <div class="autoContainer">
+          <div class="footer__inner">
+            <div class="footer__inner-header wow fadeIn">
+              <span class="logo">
+                <img src="images/logo-dark.svg" alt="Domain" />
+              </span>
+              <div class="footer__inner-header-group">
+                <span>Ready to get started?</span>
+                <button class="button button--primary">Get Started</button>
+              </div>
+            </div>
+            <div class="footer__inner-body">
+              <div class="footer__inner-body-subscribe wow fadeIn">
+                <h3>Subscribe to our newsletter</h3>
+                <div class="input input--underline input--buttonRight">
+                  <input type="text" placeholder="Email address" />
+                  <button class="button button--primary button--ico _smIco">
+                    <span class="custIcon custIcon--right"></span>
+                  </button>
+                </div>
+              </div>
+              <div class="footer__links">
+                <div
+                  class="footer__links-column wow fadeInUp"
+                  data-wow-delay=".2s"
+                >
+                  <strong class="footer__links-title">Services</strong>
+                  <a href="#" class="footer__links-item">Email Marketing</a>
+                  <a href="#" class="footer__links-item">Campaigns</a>
+                  <a href="#" class="footer__links-item">Branding</a>
+                  <a href="#" class="footer__links-item">Offline</a>
+                </div>
+                <div
+                  class="footer__links-column wow fadeInUp"
+                  data-wow-delay=".4s"
+                >
+                  <strong class="footer__links-title">About</strong>
+                  <a href="#" class="footer__links-item">Our Story</a>
+                  <a href="#" class="footer__links-item">Benefits</a>
+                  <a href="#" class="footer__links-item">Team</a>
+                  <a href="#" class="footer__links-item">Careers</a>
+                </div>
+                <div
+                  class="footer__links-column wow fadeInUp"
+                  data-wow-delay=".6s"
+                >
+                  <strong class="footer__links-title">Help</strong>
+                  <a href="#" class="footer__links-item">FAQs</a>
+                  <a href="#" class="footer__links-item">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__footer">
+            <div class="footer__footer-tos">
+              <a href="#" class="footer__footer-tos-link">Terms & Conditions</a>
+              <a href="#" class="footer__footer-tos-link">Privacy Policy</a>
+            </div>
+            <div class="footer__footer-social">
+              <a href="#" class="button button--default button--ico">
+                <svg
+                  width="11"
+                  height="20"
+                  viewBox="0 0 11 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.53635 3.29509H10.3707V0.139742C10.0542 0.0967442 8.96584 0 7.6983 0C5.05352 0 3.24178 1.643 3.24178 4.66274V7.44186H0.323242V10.9693H3.24178V19.845H6.82005V10.9701H9.62055L10.0651 7.44269H6.81922V5.01251C6.82005 3.99297 7.09801 3.29509 8.53635 3.29509Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="button button--default button--ico">
+                <svg
+                  width="24"
+                  height="18"
+                  viewBox="0 0 24 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M23.1854 2.11613C22.357 2.475 21.4744 2.71288 20.5541 2.82838C21.5008 2.27013 22.2234 1.39287 22.5631 0.3355C21.6804 0.85525 20.7059 1.22238 19.6673 1.42725C18.8292 0.545875 17.6347 0 16.3316 0C13.8033 0 11.7679 2.02675 11.7679 4.51137C11.7679 4.86888 11.7986 5.21263 11.8737 5.53988C8.07721 5.357 4.71783 3.55988 2.46107 0.82225C2.06708 1.49738 1.83597 2.27012 1.83597 3.102C1.83597 4.664 2.65041 6.04862 3.86441 6.85025C3.13072 6.8365 2.41095 6.62613 1.80117 6.29475C1.80117 6.3085 1.80117 6.32638 1.80117 6.34425C1.80117 8.536 3.3841 10.3565 5.45987 10.7759C5.08815 10.8763 4.68302 10.9244 4.26258 10.9244C3.97022 10.9244 3.67507 10.9079 3.39802 10.8474C3.98971 12.6335 5.6687 13.9466 7.66512 13.9893C6.11142 15.1896 4.13867 15.9129 2.00303 15.9129C1.62853 15.9129 1.26934 15.8964 0.910156 15.851C2.93303 17.1394 5.3304 17.875 7.91572 17.875C16.319 17.875 20.9133 11 20.9133 5.04075C20.9133 4.84137 20.9064 4.64887 20.8966 4.45775C21.8029 3.8225 22.5645 3.02913 23.1854 2.11613Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="button button--default button--ico">
+                <svg
+                  width="23"
+                  height="22"
+                  viewBox="0 0 23 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M7.64704 0H16.0003C19.8441 0 22.9613 3.07862 22.9613 6.875V15.125C22.9613 18.9214 19.8441 22 16.0003 22H7.64704C3.80317 22 0.686035 18.9214 0.686035 15.125V6.875C0.686035 3.07862 3.80317 0 7.64704 0ZM16 19.9375C18.687 19.9375 20.8727 17.7787 20.8727 15.125V6.875C20.8727 4.22125 18.687 2.0625 16 2.0625H7.64683C4.95988 2.0625 2.77412 4.22125 2.77412 6.875V15.125C2.77412 17.7787 4.95988 19.9375 7.64683 19.9375H16Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.25476 11C6.25476 7.96263 8.7482 5.5 11.8236 5.5C14.8989 5.5 17.3924 7.96263 17.3924 11C17.3924 14.0374 14.8989 16.5 11.8236 16.5C8.7482 16.5 6.25476 14.0374 6.25476 11ZM8.34283 11C8.34283 12.8948 9.90488 14.4375 11.8233 14.4375C13.7418 14.4375 15.3038 12.8948 15.3038 11C15.3038 9.10388 13.7418 7.5625 11.8233 7.5625C9.90488 7.5625 8.34283 9.10388 8.34283 11Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M18.5519 5.08834C18.5519 5.4931 18.2197 5.82122 17.8099 5.82122C17.4001 5.82122 17.0679 5.4931 17.0679 5.08834C17.0679 4.68359 17.4001 4.35547 17.8099 4.35547C18.2197 4.35547 18.5519 4.68359 18.5519 5.08834Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end
+    =========================================== -->
+    </div>
+    <div class="popup" id="popupSubscribe">
+      <div class="popup__inner">
+        <button
+          type="button"
+          class="popup__inner-close"
+          data-event="tabEvent"
+          data-tab="#popupSubscribe"
+        >
+          <span class="custIcon custIcon--cross"></span>
+        </button>
+        <div class="popup__inner-image">
+          <img src="images/illustrations/subscribe.png" alt="subscribe" />
+        </div>
+        <div class="popup__inner-content">
+          <h2>Subscribe for more brands</h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour
+          </p>
+          <div class="popup__inner-content-group">
+            <div class="input input--border input--buttonRight _wideButton">
+              <input type="text" placeholder="Enter your email address" />
+              <button class="button button--primary">Search</button>
+            </div>
+            <div class="checkbox__outer">
+              <span class="checkbox">
+                <input type="checkbox" id="terms" />
+                <span></span>
+              </span>
+              <label for="terms">
+                I agree to the <a href="/terms">terms</a> and
+                <a href="/conditions">conditions</a></label
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popupRegister">
+      <div class="popup__inner">
+        <button
+          type="button"
+          class="popup__inner-close"
+          data-event="tabEvent"
+          data-tab="#popupRegister"
+        >
+          <span class="custIcon custIcon--cross"></span>
+        </button>
+        <div class="popup__inner-image">
+          <img src="images/illustrations/register.png" alt="subscribe" />
+        </div>
+        <div class="popup__inner-content">
+          <h2>Register “brand name” on</h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour
+          </p>
+        </div>
+        <div class="popup__inner-domains">
+          <div class="popup__inner-domains-row">
+            <div class="radioButton">
+              <input type="radio" name="domain" />
+              <label
+                >Godaddy <span class="custIcon custIcon--tick"></span
+              ></label>
+            </div>
+            <div class="radioButton">
+              <input type="radio" name="domain" />
+              <label
+                >Namecheap <span class="custIcon custIcon--tick"></span
+              ></label>
+            </div>
+            <div class="radioButton">
+              <input type="radio" name="domain" />
+              <label
+                >Google Domains <span class="custIcon custIcon--tick"></span
+              ></label>
+            </div>
+            <div class="radioButton">
+              <input type="radio" name="domain" />
+              <label
+                >Bluehost <span class="custIcon custIcon--tick"></span
+              ></label>
+            </div>
+            <div class="radioButton">
+              <input type="radio" name="domain" />
+              <label
+                >Domain <span class="custIcon custIcon--tick"></span
+              ></label>
+            </div>
+            <div class="radioButton">
+              <input type="radio" name="domain" />
+              <label>Hover <span class="custIcon custIcon--tick"></span></label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/slick.jquery.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/WOW.js"></script>
+    <script src="js/main.js"></script>
+    <script></script>
+  </body>
+</html>
