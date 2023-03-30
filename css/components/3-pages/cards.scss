@@ -47,6 +47,12 @@
         line-height: 1.2;
         color: rgba($black-primary, 0.8);
       }
+      &-badges {
+        margin-top: 20px;
+        .badge {
+          font-size: 14px;
+        }
+      }
       &-link {
         margin-top: 10px;
         .learnMore {
