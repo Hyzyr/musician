@@ -35,6 +35,8 @@
         font-weight: 800;
         font-size: 20px;
         line-height: 1.4;
+        text-align: center;
+        width: 100%;
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
@@ -51,12 +53,6 @@
         margin-top: 20px;
         .badge {
           font-size: 14px;
-        }
-      }
-      &-link {
-        margin-top: 10px;
-        .learnMore {
-          font-size: 13px;
         }
       }
     }

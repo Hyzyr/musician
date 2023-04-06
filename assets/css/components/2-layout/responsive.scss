@@ -1,25 +1,20 @@
 @media (max-width: 1280px) {
   @include index-1280;
-  @include popup-1280;
 }
 @media (max-width: 1160px) {
   .autoContainer {
     padding: 0 40px;
   }
   @include footer-1160;
-  @include popup-1160;
   @include index-1160;
-  @include searchSection-1160;
-  @include boxSection-1160;
+  @include grid-1160;
 }
 @media (max-width: 1025px) {
   .autoContainer {
     padding: 0 30px;
   }
   @include header-1025;
-  @include popup-1025;
-  @include boxSection-1025;
-  @include searchSection-1025;
+  @include grid-1025;
   @include index-1025;
 }
 
@@ -28,9 +23,7 @@
     padding: 0 25px;
   }
   @include footer-940;
-  @include popup-940;
-  @include boxSection-940;
-  @include searchSection-940;
+  @include grid-940;
   @include index-940;
 }
 @media (max-width: 768px) {
@@ -38,23 +31,17 @@
     padding: 0 15px;
   }
   @include header-768;
-  @include popup-768;
   @include footer-768;
-  @include boxSection-768;
-  @include searchSection-768;
+  @include grid-768;
   @include index-768;
 }
 @media (max-width: 580px) {
   @include footer-580;
-  @include popup-580;
-  @include boxSection-580;
-  @include searchSection-580;
+  @include grid-580;
   @include index-580;
 }
 @media (max-width: 460px) {
   @include footer-460;
-  @include popup-460;
-  @include boxSection-460;
-  @include searchSection-460;
+  @include grid-460;
   @include index-460;
 }

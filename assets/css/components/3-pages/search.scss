@@ -1,17 +1,20 @@
-.searchSection {
+.grid {
   padding: 30px 0 60px 0;
 
   &__inner {
-    &-title {
-      margin-bottom: 0.5em;
-      //font
-      color: $black-secondary;
-      font-family: $font-primary;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 1.2;
-      letter-spacing: -2px;
+    &-header {
+      margin-bottom: 60px;
+
+      h2 {
+        //font
+        color: $black-secondary;
+        font-family: $font-primary;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 1.2;
+        letter-spacing: -2px;
+      }
     }
     &-row {
       display: flex;
@@ -28,14 +31,14 @@
       display: flex;
       justify-content: center;
 
-      .button {
+      .badge {
         min-width: 220px;
       }
     }
   }
 }
-@mixin searchSection-1160 {
-  .searchSection {
+@mixin grid-1160 {
+  .grid {
     &__inner {
       &-title {
         font-size: 44px;
@@ -44,8 +47,8 @@
   }
 }
 
-@mixin searchSection-1025 {
-  .searchSection {
+@mixin grid-1025 {
+  .grid {
     &__inner {
       &-title {
         font-size: 40px;
@@ -63,8 +66,8 @@
   }
 }
 
-@mixin searchSection-940 {
-  .searchSection {
+@mixin grid-940 {
+  .grid {
     &__inner {
       &-row {
         margin: 0 -15px;
@@ -79,8 +82,8 @@
     }
   }
 }
-@mixin searchSection-768 {
-  .searchSection {
+@mixin grid-768 {
+  .grid {
     &__inner {
       &-title {
         font-size: 36px;
@@ -96,18 +99,15 @@
     }
   }
 }
-@mixin searchSection-580 {
-  .searchSection {
+@mixin grid-580 {
+  .grid {
     &__inner {
       &-row {
         .cardBrand {
           &__content {
-            padding: 16px 12px;
-            gap: 8px;
-
             &-badges {
               .badge {
-                font-size: 12px;
+                font-size: 11px;
               }
             }
             &-title {
@@ -116,11 +116,6 @@
             &-para {
               font-size: 13px;
             }
-            &-link {
-              .learnMore {
-                font-size: 12px;
-              }
-            }
           }
         }
       }
@@ -128,22 +123,16 @@
   }
 }
 
-@mixin searchSection-460 {
-  .searchSection {
+@mixin grid-460 {
+  .grid {
     &__inner {
       &-row {
         .cardBrand {
           width: 100%;
 
           &__content {
-            padding: 30px 16px;
-            gap: 12px;
+            gap: 10px;
 
-            &-badges {
-              .badge {
-                font-size: 12px;
-              }
-            }
             &-title {
               font-size: 20px;
             }
